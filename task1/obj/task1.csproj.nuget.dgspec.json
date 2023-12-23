@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SV\\GB\\Lang_prog\\mpl4\\task1\\task1.csproj": {}
+    "D:\\GeekBrain\\function\\mpl4\\task1\\task1.csproj": {}
   },
   "projects": {
-    "C:\\SV\\GB\\Lang_prog\\mpl4\\task1\\task1.csproj": {
+    "D:\\GeekBrain\\function\\mpl4\\task1\\task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SV\\GB\\Lang_prog\\mpl4\\task1\\task1.csproj",
+        "projectUniqueName": "D:\\GeekBrain\\function\\mpl4\\task1\\task1.csproj",
         "projectName": "task1",
-        "projectPath": "C:\\SV\\GB\\Lang_prog\\mpl4\\task1\\task1.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\SV\\GB\\Lang_prog\\mpl4\\task1\\obj\\",
+        "projectPath": "D:\\GeekBrain\\function\\mpl4\\task1\\task1.csproj",
+        "packagesPath": "C:\\Users\\Strecmit_V\\.nuget\\packages\\",
+        "outputPath": "D:\\GeekBrain\\function\\mpl4\\task1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Strecmit_V\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -46,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
         }
       }
     }
