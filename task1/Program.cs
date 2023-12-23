@@ -1,4 +1,4 @@
-﻿int exit = 0, sum = 0, num = 0;
+﻿﻿int exit = 0, sum = 0, num = 0;
 string input = "s";
 while(exit == 0)
 {
@@ -17,13 +17,12 @@ while(exit == 0)
             sum = num % 10 + sum;
             num = (int) num / 10;          
         }
-        Console.WriteLine($"сумма цифр = {sum}");
+        //Console.WriteLine($"сумма цифр = {sum}");
         if ((sum % 2) == 0)
         {
-            Console.WriteLine($"Сумма цифр числа '{input}' чётная! Выход!"); exit = 2;
-     
+            Console.WriteLine($"Сумма цифр числа '{input}' равна {sum}, чётное число! Выход!"); exit = 2;     
         }
-    
+        else  Console.WriteLine($"Сумма цифр числа '{input}' равна {sum}, нечётное число!");    
     }
 
     else Console.WriteLine("Неверный ввод!");
